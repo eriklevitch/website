@@ -1,0 +1,629 @@
+@import  "//hello.myfonts.net/count/2f0836";
+
+@import  "https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic";
+
+/* @import must be at top of file, otherwise CSS will not work */
+/* font for site ------------- */
+@font-face {
+    font-family: 'TideSans-400LilDude';
+    src: url(../webfonts/2F0836_0_0.eot);
+    src: url(../webfonts/2F0836_0_0.eot?#iefix) format("embedded-opentype"),url(../webfonts/2F0836_0_0.woff2) format("woff2"),url(../webfonts/2F0836_0_0.woff) format("woff"),url(../webfonts/2F0836_0_0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'TideSans-100LilBunny';
+    src: url(../webfonts/2F0836_1_0.eot);
+    src: url(../webfonts/2F0836_1_0.eot?#iefix) format("embedded-opentype"),url(../webfonts/2F0836_1_0.woff2) format("woff2"),url(../webfonts/2F0836_1_0.woff) format("woff"),url(../webfonts/2F0836_1_0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'TideSans-300LilKahuna';
+    src: url(../webfonts/2F0836_2_0.eot);
+    src: url(../webfonts/2F0836_2_0.eot?#iefix) format("embedded-opentype"),url(../webfonts/2F0836_2_0.woff2) format("woff2"),url(../webfonts/2F0836_2_0.woff) format("woff"),url(../webfonts/2F0836_2_0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'TideSans-500Dudette';
+    src: url(../webfonts/2F0836_3_0.eot);
+    src: url(../webfonts/2F0836_3_0.eot?#iefix) format("embedded-opentype"),url(../webfonts/2F0836_3_0.woff2) format("woff2"),url(../webfonts/2F0836_3_0.woff) format("woff"),url(../webfonts/2F0836_3_0.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'TideSans-200LilMondo';
+    src: url(../webfonts/2F0836_4_0.eot);
+    src: url(../'webfonts/2F0836_4_0.eot?#iefix') format("embedded-opentype"),url(../webfonts/2F0836_4_0.woff2) format("woff2"),url(../webfonts/2F0836_4_0.woff) format("woff"),url(../webfonts/2F0836_4_0.ttf) format("truetype");
+}
+
+|
+@font-face {
+    font-family: 'TideSans-600Bunny';
+    src: url(../webfonts/2F0836_5_0.eot);
+    src: url(../webfonts/2F0836_5_0.eot?#iefix) format("embedded-opentype"),url(../webfonts/2F0836_5_0.woff2) format("woff2"),url(../webfonts/2F0836_5_0.woff) format("woff"),url(../webfonts/2F0836_5_0.ttf) format("truetype");
+}
+
+/* global elements ------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fafafa;
+    color: #4c4c4c;
+    font-family: 'Merriweather',Georgia,serif;
+}
+
+#header {
+    margin: auto;
+    text-align: center;
+    padding: 4em;
+}
+
+#header img {
+  margin: auto;
+}
+
+#footer {
+    font: lighter .7em/1.4em Merriweather,Georgia,serif;
+    color: #b2b2b2;
+    text-align: center;
+    margin: 2em 0 2em;
+    padding: 0 2em 0 2em;
+}
+
+/* navigation elements ------------- */
+.navigation {
+    list-style: none;
+    margin: 0.625em;
+    padding: 0;
+    font: lighter 1.06em/1.4em Merriweather,Georgia,serif;
+}
+
+.navigation li {
+    display: inline-block;
+    white-space: normal;
+    padding: 1em;
+}
+
+.activepage {
+    background-color: #FFCB6A;
+}
+
+/* typography ------------- */
+
+a {
+    color: #4c4c4c;
+    box-shadow: inset 0 -0.5em #ffcb6a;
+    text-decoration: none;
+    transition: all .25s ease;
+  }
+
+a:hover {
+    background-color: #FFCB6A;
+    padding-top: .10em;
+    padding-bottom: .10em;
+}
+
+p {
+    font: lighter 1.2em/1.5em Merriweather,Georgia,serif;
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+}
+
+h1 {
+    font: 2.369em 'TideSans-500Dudette',Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+h2 {
+    font: 1.44em 'TideSans-300LilKahuna',Helvetica,Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+
+h3 {
+    font: 300 1.05em 'TideSans-500Dudette',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .11em;
+    margin: 0;
+    padding: 0;
+    white-space: pre-wrap;
+}
+
+h4 {
+    font: 300 .8em 'TideSans-500Dudette',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .11em;
+    padding-top: 1em;
+}
+
+/* quote tyopgraphy ------------- */
+
+
+blockquote {
+    border-left: 10px solid #b2b2b2;
+    font: lighter 1em/1.5em Merriweather,Georgia,serif;
+    background: #f9f9f9;
+    padding: 1em;
+    margin: 2em 0 2em 0;
+}
+
+blockquote cite {
+    color: #999999;
+    display: block;
+    margin-top: 5px;
+
+}
+
+/* highlight text tyopgraphy ------------- */
+
+.highlight  {
+    background-color: #ffffcc;
+}
+
+/* images ------------- */
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.logos {
+  margin: 2.188em auto 2.188em auto;
+  max-width: 100%;
+}
+
+.icon {
+  margin: auto auto 1.25em auto;
+}
+
+.logo-list {
+    width: 100%;
+    height: 41px;
+    background: transparent url(../img/about/logo-list.png) repeat-x 50%;
+    background-size: 1105px 41px;
+    margin: 3.25rem 0;
+}
+
+#counter {
+    position: relative;
+}
+
+#over {
+    position: absolute;
+    left: 68%;
+    bottom: 50%;
+    max-width: 40%;
+}
+
+figure {
+    margin: 2em 0;
+}
+
+figcaption {
+  font: lighter italic .85em/1.4em Merriweather,Georgia,serif;
+  color: #b2b2b2;
+  padding: .9em 0;
+}
+
+
+/* video container ------------- */
+
+.video-container {
+position: relative;
+width: 100%;
+height: 0;
+padding-bottom: 51%;
+padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 0;
+}
+
+/* 16x9 Aspect Ratio */
+.intrinsic-container-16x9 {
+  padding-bottom: 56.25%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.intrinsic-container-4x3 {
+  padding-bottom: 75%;
+}
+
+  
+
+/* lists ------------- */
+
+ul {
+    list-style: circle;
+    font: lighter 1.02em/1.5em Merriweather,Georgia,serif;
+}
+
+li {
+    padding-top: 0.313em;
+    padding-bottom: 0.313em;
+}
+
+.metadata {
+    list-style: none;
+    font: lighter .8125em Merriweather,Georgia,serif;
+    color: #b2b2b2;
+    margin: 0;
+    padding: 0;
+}
+
+.metadata li {
+  padding: .15em 0 .15em 0;
+}
+
+.centered {
+    list-style: none;
+    font: lighter 1.12em/1.4em Merriweather,Georgia,serif;
+    margin:0;
+    padding: 0;
+}
+
+
+/* font awesome ------------- */
+.fa {
+    margin-right: .78em;
+    color: #b2b2b2;
+}
+
+/* content divs ------------- */
+
+.content-wrapper {
+    background: #fcfcfc;
+    margin: auto auto 1.563em;
+    width: 75%;
+    padding: 0.625em 0;
+    max-width: 800px;
+    box-shadow: /*y*/
+/*x*/
+/*blur radius*/
+/*spread equal in any direction */
+0 15px 25px -20px #d1d1d1;
+}
+
+/* content blocks on page ------------- */
+.content-area {
+    margin: 2.5em 0;
+    padding-left: 3.5em;
+    padding-right: 3.5em;
+    justify-content: center;
+    text-align: center;
+}
+
+.seperate {
+    border-bottom: 1px solid #e9e9e9;
+    margin: auto;
+    width: 20%;
+}
+
+.seperatefull {
+    border-bottom: 1px solid #e9e9e9;
+    margin: auto;
+    width: 100%;
+}
+
+
+/* case study styles ------------- */
+
+#casestudy-header {
+      background-image:  
+      linear-gradient(
+      rgba(255,203,105,0.21), 
+      rgba(252,246,243,0.21)
+    ),;
+  text-shadow: 1px 1px 2px #ccc;
+  background-repeat: none;
+  background-size: cover;
+  max-width: 960px;
+  padding: 5em 0 5em 0;
+  margin: auto;
+  text-align:center;
+}
+
+.android-header {
+  background-image:  
+      linear-gradient(
+      rgba(255,203,105,0.21), 
+      rgba(252,246,243,0.21)
+    ),
+    url(../img/casestudy-headers/android-background2x.jpg);
+}
+
+.nr-header {
+  background-image:  
+      linear-gradient(
+      rgba(255,203,105,0.21), 
+      rgba(252,246,243,0.21)
+    ),
+    url(../img/casestudy-headers/new-relic-bg2x.jpg);
+}
+
+.redesign-header {
+  background-image:  
+      linear-gradient(
+      rgba(255,203,105,0.21), 
+      rgba(252,246,243,0.21)
+    ),
+    url(../img/casestudy-headers/website-ux-banner2x.jpg);
+}
+
+.car-owners {
+  background-image:  
+      linear-gradient(
+      rgba(255,203,105,0.21), 
+      rgba(252,246,243,0.21)
+    ),
+    url(../img/casestudy-headers/toyota-ux-banner2x.jpg);
+}
+
+.it-software {
+  background-image:  
+      linear-gradient(
+      rgba(255,203,105,0.21), 
+      rgba(252,246,243,0.21)
+    ),
+    url(../img/casestudy-headers/it-software-banner2x.jpg);
+}
+
+.espn-header {
+  background-image:  
+      linear-gradient(
+      rgba(255,203,105,0.21), 
+      rgba(252,246,243,0.21)
+    ),
+    url(../img/casestudy-headers/espn-rise-banner2x.jpg);
+}
+
+.underarmour-header {
+  background-image:  
+      linear-gradient(
+      rgba(255,203,105,0.21), 
+      rgba(252,246,243,0.21)
+    ),
+    url(../img/casestudy-headers/under-armour-banner2x.jpg);
+}
+
+.vokey-header {
+  background-image:  
+      linear-gradient(
+      rgba(255,203,105,0.21), 
+      rgba(252,246,243,0.21)
+    ),
+    url(../img/casestudy-headers/vokey-banner2x.jpg);
+}
+
+.content-wrapper-casestudy {
+    background: #fcfcfc;
+    margin: auto;
+    width: 100%;
+    padding: 0.625em 0;
+    max-width: 960px;
+    box-shadow: /*y*/
+/*x*/
+/*blur radius*/
+/*spread equal in any direction */
+0 15px 25px -20px #d1d1d1;
+}
+
+.casestudy-container {
+  max-width: 100%;
+  margin-bottom: 2em; 
+}
+
+.casestudy-container p {
+  font: lighter 1.02em/1.75em Merriweather,Georgia,serif;
+  padding: 0;
+  margin: 0;
+}
+
+.next-project {
+  border-top: 0.3em double #b2b2b2;
+  text-align: center;
+}
+
+/* case study columns ------------- */
+
+.left-column {
+    width: 25%;
+}
+
+.left-column h4 {
+    padding: 0;
+    margin: 2em 0 0 0;
+}
+.right-column {
+    width: 75%;
+}
+
+.column {
+    display: inline-block;
+    padding: 2em 2em 2em 2em;
+    vertical-align: top;
+    margin-right: -5px;
+}
+
+
+/* contact page ------------- */
+.column-1 {
+    width: 33.3%;
+}
+
+.column-2 {
+    width: 33.3%;
+}
+
+.column-3 {
+    width: 33.3%;
+
+}
+
+
+/* forms & contact page ------------- */
+
+fieldset {
+    border: none;
+    margin: 15px;
+}
+
+label {
+    display: block;
+    margin: 0 0 5px;
+    font: 300 .9em TideSans-500Dudette,Arial,sans-serif;
+}
+
+input,text,email {
+    background: #f2f3f4;
+    color: #525560;
+    border: 1px solid #e1e3e4;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+/* form placeholders ------------- */
+::-webkit-input-placeholder {
+    font: normal .9em Arial,sans-serif;
+}
+
+:-moz-placeholder {
+    font: normal .9em Arial,sans-serif;
+    color: #d1d1d1;
+}
+
+::-moz-placeholder {
+    font: normal .9em Arial,sans-serif;
+    color: #d1d1d1;
+}
+
+:-ms-input-placeholder {
+    font: normal .9em Arial,sans-serif;
+    color: #d1d1d1;
+}
+
+input:focus,textarea:focus {
+    outline: 2px solid #f5a91c;
+}
+
+textarea {
+    background: #f2f3f4;
+    color: #525560;
+    border: 1px solid #e1e3e4;
+    padding: 15px;
+    margin-bottom: 5px;
+    width: 60%;
+}
+
+button {
+    background-color: #f5a91c;
+    font-size: .9em;
+    color: #fff;
+    padding: 0.625em;
+    margin: 0.625em 0;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border: none;
+    display: block;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+/* media queries ------------- */
+
+@media (max-width: 800px) {
+    .content-wrapper {
+        background: #fff;
+        margin: auto auto 25px;
+        width: 90%;
+        padding: 10px 0;
+        max-width: 100%;
+        box-shadow: /*y*/
+    /*x*/
+    /*blur radius*/
+    /*spread equal in any direction */
+    0 15px 25px -20px #d1d1d1;
+    }
+
+.left-column {
+  width: 100%; 
+}
+
+.right-column {
+  width: 100%; 
+}
+
+}
+
+@media (max-width: 550px) {
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.content-area {
+    margin: 2.5em 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.right-column {
+    padding: 0;
+}
+
+.casestudy-container{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.column-1 {
+    width: 100%;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.column-2 {
+    width: 100%;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.column-3 {
+    width: 100%;
+}
+
+#over {
+    position: absolute;
+    left: 65%;
+    bottom: 55%;
+    max-width: 40%;
+}
+
+}
+
+@media screen and (min-width: 415px){
+   .rwd-break { display: none; }
+}

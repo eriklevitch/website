@@ -215,6 +215,12 @@ html {
     color: #6b7280;
     border: 1px solid #e5e7eb;
     background-color: transparent;
+    gap: 6px;
+}
+
+.coming-soon-pill::before {
+    content: "⏳";
+    font-size: 0.875rem;
 }
 
 .project-description {

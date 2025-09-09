@@ -219,8 +219,14 @@ html {
 }
 
 .coming-soon-pill::before {
-    content: "⏳";
-    font-size: 0.875rem;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolyline points='12,6 12,12 16,14'/%3E%3C/svg%3E");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 4px;
 }
 
 .project-description {

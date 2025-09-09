@@ -29,7 +29,7 @@ const projects = [
         id: 'zapier',
         client: 'Zapier',
         title: 'Workflow automation',
-        description: 'Simplifying a complex pricing model',
+        description: 'Simplifying a complex pricing model + new user onboarding',
         previewImage: 'img/zapier.png',
         status: 'coming-soon'
     },
@@ -179,7 +179,7 @@ function handleProjectMove(event) {
 function showPreview(project) {
     elements.previewImage.src = project.previewImage;
     elements.previewImage.alt = `${project.client} ${project.title} preview`;
-    elements.previewTitle.textContent = `${project.client} / ${project.title}`;
+    elements.previewTitle.textContent = `${project.client}`;
     elements.previewDescription.textContent = project.description;
     elements.previewWindow.classList.add('visible');
 }

@@ -112,7 +112,7 @@ html {
 
 .main-title {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 2rem;
+    font-size: 2.00rem;
     font-weight: 500;
     color: #111827;
     margin-bottom: 32px;
@@ -167,7 +167,7 @@ html {
 }
 
 .project-card:focus {
-    outline: 2px solid #3b82f6;
+    outline: 2px solid #E3C9FF;
     outline-offset: 2px;
 }
 
@@ -195,11 +195,13 @@ html {
     font-weight: 400;
 }
 
+
 .project-separator {
     color: #9ca3af;
     margin: 0 8px;
     font-weight: 300;
 }
+
 
 .project-name {
     color: #111827;
@@ -209,9 +211,9 @@ html {
     display: inline-flex;
     align-items: center;
     padding: 4px 12px;
-    border-radius: 9999px;
+    border-radius: 100px;
     font-size: 0.725rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #6b7280;
     border: 1px solid #e5e7eb;
     background-color: transparent;
@@ -224,7 +226,7 @@ html {
     content: "";
     width: 12px;
     height: 12px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolyline points='12,6 12,12 16,14'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='1.75'%3E%3Ccircle cx='12' cy='12' r='10'/%3E%3Cpolyline points='12,6 12,12 16,14'/%3E%3C/svg%3E");
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;

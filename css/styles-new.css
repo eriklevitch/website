@@ -210,12 +210,14 @@ html {
     align-items: center;
     padding: 4px 12px;
     border-radius: 9999px;
-    font-size: 0.75rem;
+    font-size: 0.725rem;
     font-weight: 500;
     color: #6b7280;
     border: 1px solid #e5e7eb;
     background-color: transparent;
-    gap: 6px;
+    gap: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
 }
 
 .coming-soon-pill::before {
